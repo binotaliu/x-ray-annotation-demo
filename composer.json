@@ -1,0 +1,22 @@
+{
+    "name": "binota/x-ray-annotation-demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BinotaLIU",
+            "email": "binota@binota.org"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/binotaliu/x-ray"
+        }
+    ],
+
+    "require": {
+        "spatie/x-ray": "dev-feature/github-annotation",
+        "spatie/ray": "^1.30"
+    }
+}
